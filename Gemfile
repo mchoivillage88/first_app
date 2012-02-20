@@ -6,6 +6,11 @@ gem 'rails', '3.0.11'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3', '1.3.3', :group => :development
+gem 'gravatar_image_tag', '1.0.0.pre2'
+
+group :development do
+   gem 'annotate', '2.4.0'
+end
 
 # Use unicorn as the web server
 # gem 'unicorn'
